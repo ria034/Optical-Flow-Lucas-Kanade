@@ -14,16 +14,8 @@ on both real KITTI data and synthetic sequences.
   real scene structure (building window corners, car edges, container
   edges)
 
-```bash
-python3 run_on_kitti_pair.py <frame_10.png> <frame_11.png> <output.png>
-```
 
-**Honest scope note:** this validates that tracking works correctly and
-lands on real, meaningful features — it is not yet a quantitative accuracy
-result. KITTI's flow benchmark includes ground-truth optical flow for
-training scenes (`flow_noc`/`flow_occ`); computing actual End-Point-Error
-(EPE) against that ground truth would be the real next step to turn this
-into a measured accuracy number rather than a visual sanity check.
+
 
 ## Synthetic validation suite
 
